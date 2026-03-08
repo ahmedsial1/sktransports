@@ -1261,12 +1261,23 @@ footer::before {
     .advantage-inner {
         flex-direction: column !important;
         gap: 40px !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+
+    .logistics-hub-inner h2,
+    .advantage-inner h2 {
+        font-size: 2.8rem !important;
+        text-align: center !important;
+        margin: 20px auto !important;
+        width: 100%;
     }
 
     .hub-grid {
         display: grid;
         grid-template-columns: 1fr !important;
         gap: 20px;
+        width: 100%;
     }
 
     .logistics-hub-inner>div,
@@ -1274,6 +1285,9 @@ footer::before {
         width: 100% !important;
         min-width: 0 !important;
         flex: none !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     /* Fixed floating cards on mobile */
@@ -1445,6 +1459,15 @@ footer::before {
     .leadership-grid .glass-card {
         flex: 0 0 85% !important;
         min-width: 85% !important;
+    }
+
+    .advantage-box {
+        border-left: none !important;
+        border-bottom: 4px solid var(--primary);
+        border-radius: 20px !important;
+        padding: 30px 20px !important;
+        text-align: center !important;
+        margin-bottom: 30px;
     }
 }
 
