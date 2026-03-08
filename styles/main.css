@@ -1239,7 +1239,6 @@ footer::before {
         text-align: center !important;
     }
 
-    .leadership-grid,
     .logistics-hub-inner,
     .advantage-inner {
         flex-direction: column !important;
@@ -1397,9 +1396,37 @@ footer::before {
         font-size: 1.5rem !important;
     }
 
-    /* Speed up Heavy Equipment Suppliers marquee for mobile */
+    /* Speed up and optimize Heavy Equipment Suppliers marquee for mobile */
     .marquee-content {
-        animation: marquee-scroll 15s linear infinite !important;
+        animation: marquee-scroll 8s linear infinite !important;
+        gap: 30px !important;
+    }
+
+    .partner-name {
+        font-size: 1.5rem !important;
+        /* Smaller size to fit screen better */
+        letter-spacing: 2px !important;
+    }
+
+    .supplier-label {
+        font-size: 0.8rem !important;
+        padding: 8px 15px !important;
+    }
+
+    /* Ensure leadership grid is horizontal on mobile */
+    .leadership-grid {
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+        overflow-x: auto !important;
+        gap: 20px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .leadership-grid .glass-card {
+        flex: 0 0 85% !important;
+        min-width: 85% !important;
     }
 }
 
