@@ -66,45 +66,56 @@
 
                 <!-- Contact Form Container -->
                 <div class="premium-form-container">
-                    <form id="contact-form">
+                    <form id="contact-form" action="https://formspree.io/sktransportsoman@gmail.com" method="POST">
                         <div class="form-row">
                             <div class="premium-input-group">
                                 <label data-i18n="form_full_name">Your Full Name</label>
-                                <input type="text" class="premium-input" placeholder="e.g. Salim Al-Harthy">
+                                <input type="text" name="full_name" class="premium-input"
+                                    placeholder="e.g. Salim Al-Harthy" required>
                             </div>
                             <div class="premium-input-group">
                                 <label data-i18n="form_company">Company Name</label>
-                                <input type="text" class="premium-input" placeholder="e.g. PDO Oman">
+                                <input type="text" name="company" class="premium-input" placeholder="e.g. PDO Oman"
+                                    required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="premium-input-group">
                                 <label data-i18n="form_email">Email Address</label>
-                                <input type="email" class="premium-input" placeholder="name@company.com">
+                                <input type="email" name="email" class="premium-input" placeholder="name@company.com"
+                                    required>
                             </div>
                             <div class="premium-input-group">
                                 <label data-i18n="form_phone">Phone Number</label>
-                                <input type="tel" class="premium-input" placeholder="+968 9xxx xxxx">
+                                <input type="tel" name="phone" class="premium-input" placeholder="+968 9xxx xxxx"
+                                    required>
                             </div>
                         </div>
                         <div class="premium-input-group">
                             <label data-i18n="form_tonnage">Required Tonnage & Equipment</label>
-                            <select class="premium-input" style="appearance: none;">
-                                <option data-i18n="form_ton_50_100">50 - 100 TON (Support)</option>
-                                <option data-i18n="form_ton_130_200">130 - 200 TON (Industrial)</option>
-                                <option data-i18n="form_ton_220_350">220 - 350 TON (Heavy Lift)</option>
-                                <option data-i18n="form_china_source">International Procurement (Direct China Factory
-                                    Outlets)
+                            <select name="tonnage" class="premium-input" style="appearance: none;">
+                                <option value="50-100T" data-i18n="form_ton_50_100">50 - 100 TON (Support)</option>
+                                <option value="130-200T" data-i18n="form_ton_130_200">130 - 200 TON (Industrial)
                                 </option>
+                                <option value="220-350T" data-i18n="form_ton_220_350">220 - 350 TON (Heavy Lift)
+                                </option>
+                                <option value="China-Sourcing" data-i18n="form_china_source">International Procurement
+                                    (Direct China Factory Outlets)</option>
                             </select>
                         </div>
                         <div class="premium-input-group">
                             <label data-i18n="form_message_label">Project Message</label>
-                            <textarea class="premium-input" rows="5"
-                                placeholder="Describe your site location and lifting requirements..."></textarea>
+                            <textarea name="message" class="premium-input" rows="5"
+                                placeholder="Describe your site location and lifting requirements..."
+                                required></textarea>
                         </div>
-                        <button type="submit" class="btn-premium" style="width: 100%; font-size: 1rem; padding: 22px;"
-                            data-i18n="form_submit_btn">Send Professional Inquiry</button>
+                        <button type="submit" id="submit-btn" class="btn-premium"
+                            style="width: 100%; font-size: 1rem; padding: 22px;" data-i18n="form_submit_btn">Send
+                            Professional Inquiry</button>
+
+                        <div id="form-status"
+                            style="display:none; margin-top: 20px; padding: 15px; border-radius: 10px; text-align: center; font-weight: 700;">
+                        </div>
                     </form>
                 </div>
 

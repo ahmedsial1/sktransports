@@ -258,7 +258,9 @@ const translations = {
         phone_md: "+968 9192 9375 (MD)",
         phone_ops: "+968 9192 9355 (Ops)",
         phone_ops_2: "+968 7410 9000 (Ops)",
-        phone_landline: "+968 24 424537 (Landline)"
+        phone_landline: "+968 24 424537 (Landline)",
+        form_success: "Thank you! Your inquiry has been sent to our HQ.",
+        form_error: "Oops! There was a problem sending your message."
     },
     ar: {
         nav_home: "الرئيسية",
@@ -475,7 +477,9 @@ const translations = {
         phone_md: "+968 9192 9375 (MD)",
         phone_ops: "\u200E+968 9192 9355 (Ops)",
         phone_ops_2: "\u200E+968 7410 9000 (Ops)",
-        phone_landline: "\u200E+968 24 424537 (Landline)"
+        phone_landline: "\u200E+968 24 424537 (Landline)",
+        form_success: "شكراً لك! تم إرسال استفسارك إلى مقرنا الرئيسي.",
+        form_error: "عذراً! حدثت مشكلة في إرسال رسالتك."
     },
     zh: {
         nav_home: "首页",
@@ -692,7 +696,9 @@ const translations = {
         phone_md: "+968 9192 9375 (MD)",
         phone_ops: "+968 9192 9355 (Ops)",
         phone_ops_2: "+968 7410 9000 (Ops)",
-        phone_landline: "+968 24 424537 (座机)"
+        phone_landline: "+968 24 424537 (座机)",
+        form_success: "谢谢！您的咨询已发送至我们的总部。",
+        form_error: "糟糕！发送您的消息时出现问题。"
     },
 };
 
@@ -781,4 +787,47 @@ function slideLeadership(direction) {
     } else {
         slider.scrollLeft -= scrollAmount;
     }
+}
+
+// 7. Contact Form Handling (AJAX)
+const contactForm = document.getElementById('contact-form');
+if (contactForm) {
+    contactForm.addEventListener('submit', async function (e) {
+        e.preventDefault();
+        const status = document.getElementById('form-status');
+        const btn = document.getElementById('submit-btn');
+        const formData = new FormData(contactForm);
+
+        // UI Feedback
+        btn.disabled = true;
+        btn.innerHTML = (currentLang === 'ar' ? 'جاري الإرسال...' : (currentLang === 'zh' ? '正在发送...' : 'Sending...'));
+
+        try {
+            const response = await fetch(contactForm.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+
+            if (response.ok) {
+                status.style.display = 'block';
+                status.style.background = 'rgba(16, 185, 129, 0.1)';
+                status.style.color = '#10b981';
+                status.innerHTML = translations[currentLang].form_success || "Inquiry Sent Successfully!";
+                contactForm.reset();
+                btn.style.display = 'none';
+            } else {
+                throw new Error();
+            }
+        } catch (error) {
+            status.style.display = 'block';
+            status.style.background = 'rgba(239, 68, 68, 0.1)';
+            status.style.color = '#ef4444';
+            status.innerHTML = translations[currentLang].form_error || "Submission Error.";
+            btn.disabled = false;
+            btn.innerHTML = translations[currentLang].form_submit_btn;
+        }
+    });
 }
