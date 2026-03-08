@@ -1405,11 +1405,29 @@ footer::before {
     /* About Us Page Mobile fixes */
     .about-overview-inner {
         flex-direction: column !important;
-        gap: 40px !important;
+        gap: 60px !important;
+        text-align: center !important;
     }
 
     .about-overview-inner>div {
         min-width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-overview-inner h2 {
+        font-size: 2.2rem !important;
+        margin-bottom: 20px !important;
+    }
+
+    .mission-vision-grid {
+        width: 100%;
+        margin-top: 30px !important;
+    }
+
+    .mission-vision-grid .glass-card {
+        padding: 30px 20px !important;
     }
 
     .mission-vision-grid,
@@ -1422,10 +1440,15 @@ footer::before {
         padding: 20px !important;
     }
 
+    .about-overview-inner .glass-card {
+        transform: none !important;
+        width: 100%;
+    }
+
     .experience-badge {
         width: 100px !important;
         height: 100px !important;
-        top: -20px !important;
+        top: -30px !important;
         right: -10px !important;
     }
 
