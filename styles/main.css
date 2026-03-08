@@ -2085,20 +2085,19 @@ body.rtl .lang-dropdown-content a {
 
 .qr-preview {
     position: absolute;
-    bottom: 140%;
+    bottom: 125%;
     left: 50%;
     transform: translateX(-50%) scale(0.9);
     width: 220px;
-    background: rgba(15, 23, 42, 0.95);
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px solid var(--secondary);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.4);
     opacity: 0;
     pointer-events: none;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    z-index: 100;
+    transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 1000;
     text-align: center;
 }
 
@@ -2111,19 +2110,17 @@ body.rtl .lang-dropdown-content a {
 .qr-preview img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
-    filter: invert(1) brightness(1.2) contrast(1.1) !important;
-    mix-blend-mode: screen;
+    border-radius: 6px;
+    filter: none !important;
+    mix-blend-mode: normal !important;
 }
 
 .qr-preview span {
     display: block;
-    color: #fff;
-    font-size: 0.8rem;
-    margin-top: 15px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
+    color: #000000;
+    font-size: 0.85rem;
+    margin-top: 12px;
+    font-weight: 800;
 }
 
 .qr-preview:after {
@@ -2132,9 +2129,9 @@ body.rtl .lang-dropdown-content a {
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    border-width: 12px;
+    border-width: 10px;
     border-style: solid;
-    border-color: rgba(15, 23, 42, 0.95) transparent transparent transparent;
+    border-color: #ffffff transparent transparent transparent;
 }
 
 @media (max-width: 768px) {
