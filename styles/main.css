@@ -1469,6 +1469,17 @@ footer::before {
         text-align: center !important;
         margin-bottom: 30px;
     }
+
+    /* Center Fleet Card Content on Mobile */
+    .card-content-box {
+        text-align: center !important;
+    }
+
+    .card-footer {
+        justify-content: center !important;
+        flex-wrap: wrap;
+        /* Ensure stacking on very small screens */
+    }
 }
 
 
