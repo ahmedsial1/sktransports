@@ -244,6 +244,7 @@ body.rtl .contact-sub-item p[data-i18n] {
 .hero-cta {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 30px;
 }
 
