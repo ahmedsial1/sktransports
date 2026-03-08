@@ -1601,6 +1601,7 @@ footer::before {
     border-radius: 24px;
     transition: all 0.4s;
     height: 100%;
+    overflow: visible !important;
 }
 
 .contact-card-v2:hover {
@@ -1654,6 +1655,7 @@ footer::before {
 .contact-sub-item {
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    overflow: visible !important;
 }
 
 .contact-sub-item:last-child {
@@ -2085,7 +2087,7 @@ body.rtl .lang-dropdown-content a {
 
 .qr-preview {
     position: absolute;
-    bottom: 125%;
+    top: 120%;
     left: 50%;
     transform: translateX(-50%) scale(0.9);
     width: 220px;
@@ -2097,7 +2099,7 @@ body.rtl .lang-dropdown-content a {
     opacity: 0;
     pointer-events: none;
     transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    z-index: 1000;
+    z-index: 9999;
     text-align: center;
 }
 
@@ -2126,12 +2128,12 @@ body.rtl .lang-dropdown-content a {
 .qr-preview:after {
     content: '';
     position: absolute;
-    top: 100%;
+    bottom: 100%;
     left: 50%;
     transform: translateX(-50%);
     border-width: 10px;
     border-style: solid;
-    border-color: #ffffff transparent transparent transparent;
+    border-color: transparent transparent #ffffff transparent;
 }
 
 @media (max-width: 768px) {
