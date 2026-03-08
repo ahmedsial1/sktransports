@@ -736,6 +736,11 @@ nav.scrolled {
     background: #fff;
 }
 
+/* Services Page Base Styles */
+.safety-card {
+    padding: 80px 60px;
+}
+
 .btn-card {
     padding: 10px 22px !important;
     font-size: 0.75rem !important;
@@ -1807,6 +1812,27 @@ body.rtl .lang-dropdown-content a {
 
     .footer-brand {
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Services Page Mobile Adjustments */
+    .safety-card {
+        padding: 40px 20px !important;
+    }
+
+    .safety-card h2 {
+        font-size: 2rem !important;
+    }
+
+    .tech-specs-grid {
+        text-align: center !important;
+        grid-template-columns: 1fr !important;
+        padding-top: 40px !important;
+    }
+
+    .tech-specs-grid>div {
         display: flex;
         flex-direction: column;
         align-items: center;
