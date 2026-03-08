@@ -1396,6 +1396,11 @@ footer::before {
     .experience-badge span:first-child {
         font-size: 1.5rem !important;
     }
+
+    /* Speed up Heavy Equipment Suppliers marquee for mobile */
+    .marquee-content {
+        animation: marquee-scroll 15s linear infinite !important;
+    }
 }
 
 
