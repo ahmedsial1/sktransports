@@ -2042,77 +2042,24 @@ body.rtl .lang-dropdown-content a {
 }
 
 /* QR Codes Styling */
-.qr-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-top: 5px;
-}
-
-.qr-trigger {
-    position: relative;
-    cursor: pointer;
-    font-size: 1.8rem;
-    display: inline-flex;
-    align-items: center;
-    transition: all 0.3s ease;
-    opacity: 0.9;
-}
-
-.qr-trigger i {
-    animation: qr-pulse 2s infinite ease-in-out;
-}
-
-@keyframes qr-pulse {
-    0% {
-        transform: scale(1);
-        filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
-    }
-
-    50% {
-        transform: scale(1.1);
-        filter: drop-shadow(0 0 10px currentColor);
-    }
-
-    100% {
-        transform: scale(1);
-        filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
-    }
-}
-
-.qr-trigger:hover {
-    color: #fff;
-    transform: translateY(-2px);
-}
-
+/* Permanent QR Display */
 .qr-preview {
-    position: absolute;
-    top: 120%;
-    left: 50%;
-    transform: translateX(-50%) scale(0.9);
-    width: 220px;
+    display: block;
+    margin: 10px auto;
+    width: 140px;
     background: #ffffff;
-    padding: 15px;
+    padding: 10px;
     border-radius: 12px;
-    border: 2px solid var(--secondary);
-    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.4);
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    z-index: 9999;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     text-align: center;
-}
-
-.qr-trigger:hover .qr-preview {
-    opacity: 1;
-    pointer-events: auto;
-    transform: translateX(-50%) scale(1);
 }
 
 .qr-preview img {
     width: 100%;
     height: auto;
     border-radius: 6px;
+    display: block;
     filter: none !important;
     mix-blend-mode: normal !important;
 }
@@ -2120,32 +2067,15 @@ body.rtl .lang-dropdown-content a {
 .qr-preview span {
     display: block;
     color: #000000;
-    font-size: 0.85rem;
-    margin-top: 12px;
+    font-size: 0.65rem;
+    margin-top: 8px;
     font-weight: 800;
-}
-
-.qr-preview:after {
-    content: '';
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 10px;
-    border-style: solid;
-    border-color: transparent transparent #ffffff transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 @media (max-width: 768px) {
     .qr-preview {
-        width: 180px;
-        left: -80px;
-        transform: scale(0.9);
+        width: 120px;
     }
-
-    .qr-trigger:hover .qr-preview {
-        transform: scale(1);
-    }
-
-    /* Hide tip on mobile if it blocks content */
 }
