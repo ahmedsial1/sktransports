@@ -2043,18 +2043,39 @@ body.rtl .lang-dropdown-content a {
 .qr-wrapper {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
     margin-top: 5px;
 }
 
 .qr-trigger {
     position: relative;
     cursor: pointer;
-    color: var(--primary);
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     display: inline-flex;
     align-items: center;
     transition: all 0.3s ease;
+    opacity: 0.9;
+}
+
+.qr-trigger i {
+    animation: qr-pulse 2s infinite ease-in-out;
+}
+
+@keyframes qr-pulse {
+    0% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
+    }
+
+    50% {
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 10px currentColor);
+    }
+
+    100% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
+    }
 }
 
 .qr-trigger:hover {
@@ -2064,14 +2085,16 @@ body.rtl .lang-dropdown-content a {
 
 .qr-preview {
     position: absolute;
-    bottom: 130%;
+    bottom: 140%;
     left: 50%;
     transform: translateX(-50%) scale(0.9);
     width: 220px;
-    background: #fff;
-    padding: 15px;
-    border-radius: 15px;
-    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.6);
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
     opacity: 0;
     pointer-events: none;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -2089,15 +2112,18 @@ body.rtl .lang-dropdown-content a {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    filter: none !important;
+    filter: invert(1) brightness(1.2) contrast(1.1) !important;
+    mix-blend-mode: screen;
 }
 
 .qr-preview span {
     display: block;
-    color: #000;
+    color: #fff;
     font-size: 0.8rem;
-    margin-top: 10px;
+    margin-top: 15px;
     font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
 .qr-preview:after {
@@ -2106,9 +2132,9 @@ body.rtl .lang-dropdown-content a {
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    border-width: 10px;
+    border-width: 12px;
     border-style: solid;
-    border-color: #fff transparent transparent transparent;
+    border-color: rgba(15, 23, 42, 0.95) transparent transparent transparent;
 }
 
 @media (max-width: 768px) {
