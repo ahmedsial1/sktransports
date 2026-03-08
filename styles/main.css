@@ -2038,3 +2038,89 @@ body.rtl .lang-dropdown-content a {
         /* Increased from 55px to 70px */
     }
 }
+
+/* QR Codes Styling */
+.qr-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.qr-trigger {
+    position: relative;
+    cursor: pointer;
+    color: var(--primary);
+    font-size: 1.3rem;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.qr-trigger:hover {
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.qr-preview {
+    position: absolute;
+    bottom: 130%;
+    left: 50%;
+    transform: translateX(-50%) scale(0.9);
+    width: 220px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 100;
+    text-align: center;
+}
+
+.qr-trigger:hover .qr-preview {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(-50%) scale(1);
+}
+
+.qr-preview img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    filter: none !important;
+}
+
+.qr-preview span {
+    display: block;
+    color: #000;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.qr-preview:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+@media (max-width: 768px) {
+    .qr-preview {
+        width: 180px;
+        left: -80px;
+        transform: scale(0.9);
+    }
+
+    .qr-trigger:hover .qr-preview {
+        transform: scale(1);
+    }
+
+    /* Hide tip on mobile if it blocks content */
+}

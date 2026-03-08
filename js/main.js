@@ -252,14 +252,13 @@ const translations = {
         korea_card_title: "🇰🇷 Sial Auto Parts (South Korea)",
         korea_card_company: "Sial Auto Parts Company Limited",
         korea_card_address: "Ansan-si, Gyeonggi-do, South Korea.",
-        korea_card_source: "CEO International Contact",
+        korea_card_source: "Direct Sourcing (CEO Muhammad Amjad)",
         intl_wa_label: "CEO WhatsApp (CN/KR)",
         phone_intl_wa: "+82 10 5548 9938",
         phone_md: "+968 9192 9375 (MD)",
         phone_ops: "+968 9192 9355 (Ops)",
         phone_ops_2: "+968 7410 9000 (Ops)",
-        phone_landline: "+968 24 424537 (Landline)",
-        phone_china: "+86 151 5898 0458"
+        phone_landline: "+968 24 424537 (Landline)"
     },
     ar: {
         nav_home: "الرئيسية",
@@ -470,14 +469,13 @@ const translations = {
         korea_card_title: "🇰🇷 سيال لقطع غيار السيارات (كوريا الجنوبية)",
         korea_card_company: "Sial Auto Parts Company Limited",
         korea_card_address: "أنسان-سي، جيونج جي-دو، كوريا الجنوبية.",
-        korea_card_source: "اتصال الرئيس التنفيذي الدولي",
+        korea_card_source: "توريد مباشر (الرئيس التنفيذي محمد أمجد)",
         intl_wa_label: "واتساب الرئيس التنفيذي (الصين/كوريا)",
         phone_intl_wa: "+82 10 5548 9938",
         phone_md: "+968 9192 9375 (MD)",
         phone_ops: "\u200E+968 9192 9355 (Ops)",
         phone_ops_2: "\u200E+968 7410 9000 (Ops)",
-        phone_landline: "\u200E+968 24 424537 (Landline)",
-        phone_china: "\u200E+86 151 5898 0458"
+        phone_landline: "\u200E+968 24 424537 (Landline)"
     },
     zh: {
         nav_home: "首页",
@@ -688,14 +686,13 @@ const translations = {
         korea_card_title: "🇰🇷 希尔汽车零部件（韩国）",
         korea_card_company: "希尔汽车零部件有限公司",
         korea_card_address: "韩国京畿道安山市。",
-        korea_card_source: "CEO国际联系方式",
+        korea_card_source: "厂家直供（首席执行官 Muhammad Amjad）",
         intl_wa_label: "CEO WhatsApp (中/韩)",
         phone_intl_wa: "+82 10 5548 9938",
         phone_md: "+968 9192 9375 (MD)",
         phone_ops: "+968 9192 9355 (Ops)",
         phone_ops_2: "+968 7410 9000 (Ops)",
-        phone_landline: "+968 24 424537 (座机)",
-        phone_china: "+86 151 5898 0458"
+        phone_landline: "+968 24 424537 (座机)"
     },
 };
 
