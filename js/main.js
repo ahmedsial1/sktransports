@@ -743,3 +743,15 @@ document.querySelectorAll('.glass-card, .hero-title, .section h2').forEach(el =>
     el.style.transition = 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
     observer.observe(el);
 });
+// 6. Leadership Slider Logic
+function slideLeadership(direction) {
+    const slider = document.getElementById('leadership-slider');
+    if (!slider) return;
+
+    const scrollAmount = 430; // Card width (400) + Gap (30)
+    if (direction === 'next') {
+        slider.scrollLeft += scrollAmount;
+    } else {
+        slider.scrollLeft -= scrollAmount;
+    }
+}
