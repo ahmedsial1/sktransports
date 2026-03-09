@@ -94,7 +94,7 @@ get_header(); ?>
                                             style="display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 10px;">
                                             <i class="fab fa-whatsapp" style="color: #25d366; font-size: 1.2rem;"></i>
                                             <a href="https://wa.me/821055489938" target="_blank"
-                                                style="color: #fff; text-decoration: none; font-weight: 700; font-size: 0.9rem;">+82
+                                                style="color: #fff; text-decoration: none; font-weight: 700; font-size: 0.9rem;" dir="ltr">+82
                                                 10 5548 9938</a>
                                         </div>
                                         <div class="qr-preview"
