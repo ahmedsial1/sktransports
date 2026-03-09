@@ -5,7 +5,7 @@
         </div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <span class="hero-tagline" data-i18n="hero_tagline">PDO Approved • 18+ Branches • Oman</span>
+            <span class="hero-tagline" data-i18n="hero_tagline">Oman's Ultimate Heavy Lifting Force • PDO Approved • 18+ Years Excellence</span>
             <h1 class="hero-title" id="hero-title" data-i18n="hero_title">
                 THE ULTIMATE FORCE IN <span>OMAN'S INFRASTRUCTURE.</span>
             </h1>
@@ -52,7 +52,7 @@
         <div class="container logistics-hub-inner">
             <div style="flex: 1;">
                 <span style="color: var(--primary); font-weight: 700;" data-i18n="section_logistics_tag">WORLD-CLASS
-                    LOGISTICS</span>
+                    SOLUTIONS</span>
                 <h2 style="font-size: 4rem; font-weight: 900; line-height: 1; margin: 20px 0;"
                     data-i18n="section_logistics_title">Beyond Rental,<br><span>Strength Inherited.</span></h2>
                 <p style="color: var(--text-dim); margin-top: 30px; line-height: 1.6;" data-i18n="section_logistics_desc">
@@ -90,8 +90,8 @@
         <div class="container advantage-inner">
             <div style="flex: 1; min-width: 300px;">
                 <div class="advantage-box">
-                    <span class="hero-tagline" data-i18n="why_tag">Why Choose Us</span>
-                    <h2 style="font-size: 3rem; margin: 20px 0;" data-i18n="why_title">The YKS Advantage.</h2>
+                    <span class="hero-tagline" data-i18n="why_tag">The YKS Advantage</span>
+                    <h2 style="font-size: 3rem; margin: 20px 0;" data-i18n="why_title">Strategic Lifting Power.</h2>
                     <ul style="list-style: none; color: #fff; font-weight: 700; margin-top: 30px;">
                         <li style="margin-bottom: 25px; display: flex; align-items: start; gap: 10px;">
                             <span style="color: var(--primary); font-size: 1.5rem;">✓</span>
@@ -186,7 +186,7 @@
     <!-- Client Reviews Section -->
     <section class="section" style="background: rgba(15, 23, 42, 0.4);">
         <div class="container" style="max-width: 1400px; margin: 0 auto; text-align: center;">
-            <span class="hero-tagline" data-i18n="testimonials_tag">Testimonials</span>
+            <span class="hero-tagline" data-i18n="testimonials_tag">Client Reviews</span>
             <h2 style="font-size: 3.5rem; margin-bottom: 50px;" data-i18n="testimonials_title">Trusted by <span>Industry
                     Leaders.</span></h2>
 
@@ -240,9 +240,9 @@
     <!-- Leadership Section on Home Page -->
     <section class="section">
         <div class="container" style="max-width: 1400px; margin: 0 auto; text-align: center;">
-            <span class="hero-tagline" data-i18n="leadership_tag">Executive Board</span>
-            <h2 style="font-size: 3.5rem; font-weight: 900; margin-bottom: 60px;" data-i18n="leadership_title">Visionary
-                <span>Leadership.</span>
+            <span class="hero-tagline" data-i18n="leadership_tag">Visionary Leadership</span>
+            <h2 style="font-size: 3.5rem; font-weight: 900; margin-bottom: 60px;" data-i18n="leadership_title">Strategic
+                <span>Excellence.</span>
             </h2>
 
             <div class="slider-container">

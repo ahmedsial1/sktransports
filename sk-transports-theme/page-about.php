@@ -60,9 +60,9 @@ get_header(); ?>
     <!-- Leadership - New Visual Style -->
     <section class="section" style="background: rgba(15, 23, 42, 0.4);">
         <div class="container" style="max-width: 1400px; margin: 0 auto; text-align: center;">
-            <span class="hero-tagline" data-i18n="leadership_tag">Executive Board</span>
-            <h2 style="font-size: 3.5rem; font-weight: 900; margin-bottom: 60px;" data-i18n="leadership_title">Visionary
-                <span>Leadership.</span>
+            <span class="hero-tagline" data-i18n="leadership_tag">Visionary Leadership</span>
+            <h2 style="font-size: 3.5rem; font-weight: 900; margin-bottom: 60px;" data-i18n="leadership_title">Strategic
+                <span>Excellence.</span>
             </h2>
 
             <div class="slider-container">
