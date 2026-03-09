@@ -134,7 +134,7 @@
                             <h3 class="card-title" style="font-size: 1.5rem; margin: 10px 0;">SANY SAC 3500</h3>
                         </div>
                         <div class="card-footer">
-                            <span class="tonnage-badge">350 TON</span>
+                            <span class="tonnage-badge" data-i18n="ton_350">350 TON</span>
                             <a href="https://wa.me/96891929375" class="btn-premium btn-card" data-i18n="book_now">Book
                                 Now</a>
                         </div>
@@ -152,7 +152,7 @@
                             <h3 class="card-title" style="font-size: 1.5rem; margin: 10px 0;">SANY SAC 2200</h3>
                         </div>
                         <div class="card-footer">
-                            <span class="tonnage-badge">220 TON</span>
+                            <span class="tonnage-badge" data-i18n="ton_220">220 TON</span>
                             <a href="https://wa.me/96891929375" class="btn-premium btn-card" data-i18n="book_now">Book
                                 Now</a>
                         </div>
@@ -170,7 +170,7 @@
                             <h3 class="card-title" style="font-size: 1.5rem; margin: 10px 0;">SANY STC 1600</h3>
                         </div>
                         <div class="card-footer">
-                            <span class="tonnage-badge">160 TON</span>
+                            <span class="tonnage-badge" data-i18n="ton_160">160 TON</span>
                             <a href="https://wa.me/96891929375" class="btn-premium btn-card" data-i18n="book_now">Book
                                 Now</a>
                         </div>

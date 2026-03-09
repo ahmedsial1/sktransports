@@ -29,7 +29,7 @@ get_header(); ?>
                             </p>
                         </div>
                         <div class="card-footer">
-                            <span class="tonnage-badge">50 TON</span>
+                            <span class="tonnage-badge" data-i18n="ton_50">50 TON</span>
                             <a href="https://wa.me/96891929375" class="btn-premium btn-card" data-i18n="book_now">Book
                                 Now</a>
                         </div>
@@ -49,7 +49,7 @@ get_header(); ?>
                                 construction.</p>
                         </div>
                         <div class="card-footer">
-                            <span class="tonnage-badge">80 TON</span>
+                            <span class="tonnage-badge" data-i18n="ton_80">80 TON</span>
                             <a href="https://wa.me/96891929375" class="btn-premium btn-card" data-i18n="book_now">Book
                                 Now</a>
                         </div>
@@ -69,7 +69,7 @@ get_header(); ?>
                             </p>
                         </div>
                         <div class="card-footer">
-                            <span class="tonnage-badge">100 TON</span>
+                            <span class="tonnage-badge" data-i18n="ton_100">100 TON</span>
                             <a href="https://wa.me/96891929375" class="btn-premium btn-card" data-i18n="book_now">Book
                                 Now</a>
                         </div>
@@ -89,7 +89,7 @@ get_header(); ?>
                             </p>
                         </div>
                         <div class="card-footer">
-                            <span class="tonnage-badge">130 TON</span>
+                            <span class="tonnage-badge" data-i18n="ton_130">130 TON</span>
                             <a href="https://wa.me/96891929375" class="btn-premium btn-card" data-i18n="book_now">Book
                                 Now</a>
                         </div>
@@ -109,7 +109,7 @@ get_header(); ?>
                             </p>
                         </div>
                         <div class="card-footer">
-                            <span class="tonnage-badge">160 TON</span>
+                            <span class="tonnage-badge" data-i18n="ton_160">160 TON</span>
                             <a href="https://wa.me/96891929375" class="btn-premium btn-card" data-i18n="book_now">Book
                                 Now</a>
                         </div>
@@ -129,7 +129,7 @@ get_header(); ?>
                                 infrastructure.</p>
                         </div>
                         <div class="card-footer">
-                            <span class="tonnage-badge">200 TON</span>
+                            <span class="tonnage-badge" data-i18n="ton_200">200 TON</span>
                             <a href="https://wa.me/96891929375" class="btn-premium btn-card" data-i18n="book_now">Book
                                 Now</a>
                         </div>
@@ -149,7 +149,7 @@ get_header(); ?>
                                 plants.</p>
                         </div>
                         <div class="card-footer">
-                            <span class="tonnage-badge">220 TON</span>
+                            <span class="tonnage-badge" data-i18n="ton_220">220 TON</span>
                             <a href="https://wa.me/96891929375" class="btn-premium btn-card" data-i18n="book_now">Book
                                 Now</a>
                         </div>
@@ -169,7 +169,7 @@ get_header(); ?>
                                 Elevation.</p>
                         </div>
                         <div class="card-footer">
-                            <span class="tonnage-badge">350 TON</span>
+                            <span class="tonnage-badge" data-i18n="ton_350">350 TON</span>
                             <a href="https://wa.me/96891929375" class="btn-premium btn-card" data-i18n="book_now">Book
                                 Now</a>
                         </div>
