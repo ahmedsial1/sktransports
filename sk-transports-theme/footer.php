@@ -52,7 +52,7 @@
                 <h4 data-i18n="footer_sourcing_title">Direct Sourcing</h4>
                 <p style="font-size: 0.9rem; color: var(--text-dim); margin-bottom: 20px;" data-i18n="footer_sourcing_desc">Direct sourcing from China factory outlets for used and new heavy equipment procurement.</p>
                 <a href="<?php echo esc_url(home_url('/contact-us')); ?>" class="btn-premium" style="margin-bottom: 15px; display: block; text-align: center;">Get A Quote</a>
-                <a href="https://wa.me/<?php $wa = get_field('whatsapp_number', 'option'); echo preg_replace('/[^0-9]/', '', $wa); ?>" class="btn-premium" style="background: #25d366; color: #fff; display: block; text-align: center;" data-i18n="footer_wa_inquiry"><i class="fab fa-whatsapp"></i> WhatsApp Inquiry</a>
+                <a href="https://wa.me/821055489938" class="btn-premium" style="background: #25d366; color: #fff; display: block; text-align: center;" data-i18n="footer_wa_inquiry"><i class="fab fa-whatsapp"></i> WhatsApp Inquiry</a>
             </div>
         </div>
 
