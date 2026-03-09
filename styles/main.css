@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Cairo:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap');
 
 :root {
     /* Ultra Premium Palette */
@@ -20,7 +20,7 @@
 
     --font-heading: 'Poppins', sans-serif;
     --font-main: 'Montserrat', sans-serif;
-    --font-ar: 'Cairo', sans-serif;
+    --font-ar: 'Tajawal', sans-serif;
 }
 
 /* --- Top Ticker Bar --- */

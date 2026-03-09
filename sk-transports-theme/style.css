@@ -6,34 +6,6 @@ Author URI: https://github.com/ahmedsial1
 Description: Ultra-premium high-performance theme for lifting and logistics operations in Oman.
 Version: 5.0
 Text Domain: sktransports
-*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Outfit:wght@300;400;700;900&family=Cairo:wght@400;700;900&display=swap');
-
-:root {
-    /* Ultra Premium Palette */
-    --primary: #fb923c;
-    /* Vibrant Sany Orange */
-    --primary-glow: rgba(251, 146, 60, 0.4);
-    --secondary: #ef4444;
-    /* Tech Red */
-    --accent: #6366f1;
-    /* Deep Indigo for contrast */
-
-    --bg-black: #020617;
-    --bg-card: rgba(15, 23, 42, 0.6);
-    --glass: rgba(255, 255, 255, 0.03);
-    --glass-border: rgba(255, 255, 255, 0.1);
-
-    --text-main: #f8fafc;
-    --text-dim: #94a3b8;
-
-    --font-main: 'Outfit', sans-serif;
-    --font-ar: 'Cairo', sans-serif;
-}
-
-/* --- Top Ticker Bar --- */
-.top-ticker {
-    background: linear-gradient(90deg, #020617, #0f172a, #020617);
     border-bottom: 1px solid rgba(251, 146, 60, 0.1);
     height: 35px;
     display: flex;
@@ -70,15 +42,15 @@ Text Domain: sktransports
 .ticker-item {
     color: var(--primary);
     /* Updated: Applied brand color to the ticker text */
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 5px;
-    /* Added word spacing as requested */
-    display: flex;
-    align-items: center;
-    gap: 8px;
+font-size: 0.75rem;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1px;
+word-spacing: 5px;
+/* Added word spacing as requested */
+display: flex;
+align-items: center;
+gap: 8px;
 }
 
 .ticker-item span {
