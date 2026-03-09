@@ -114,6 +114,7 @@ const translations = {
 
         about_legacy_tag: "Our Legacy • Our Strength",
         about_future_title: "Elevating <span>Oman's Future.</span>",
+        about_hero_desc: "Discover the foundation of our engineering excellence and our unmatched commitment to building Oman's industrial landscape with precision and safety.",
         about_conglom_title: "A Conglomerate of <br><span>Industrial Excellence.</span>",
         about_conglom_desc: "Founded on the principles of reliability and engineering precision, SK Transports has grown from a local rental service into a dominant industrial powerhouse in the Sultanate of Oman.<br><br>With over 18 branches strategically located across the country, we specialize in providing PDO-approved heavy lifting solutions, factory-direct equipment procurement from China, and specialized automotive spare parts.",
         mission_title: "Mission",
@@ -259,8 +260,15 @@ const translations = {
         phone_ops: "+968 9192 9355 (Ops)",
         phone_ops_2: "+968 7410 9000 (Ops)",
         phone_landline: "+968 24 424537 (Landline)",
-        form_success: "Thank you! Your inquiry has been sent to our HQ.",
-        form_error: "Oops! There was a problem sending your message."
+        contact_wa_label: "Oman WhatsApp",
+        serv_pdo_compliance_title: "PDO COMPLIANCE",
+        serv_pdo_compliance_desc: "Full registration with Petroleum Development Oman (PDO) for all rental cranes, ensuring access to high-security energy zones.",
+        serv_certified_riggers_title: "CERTIFIED RIGGERS",
+        serv_certified_riggers_desc: "Our operators and riggers hold international certification for technical lifting and heavy load management.",
+        serv_parts_hub_title: "SPARE PARTS HUB",
+        serv_parts_hub_desc: "Dedicated warehouse support for SANY, Hyundai, and Kia equipment to minimize maintenance delays.",
+        form_success: "Thank you! Your inquiry has been sent to our HQ. We will contact you shortly.",
+        form_error: "Submission Error! Please try sending your inquiry directly via <a href='https://wa.me/96891929375' style='color:inherit; text-decoration:underline;'>WhatsApp (+968 9192 9375)</a> for immediate assistance."
     },
     ar: {
         nav_home: "الرئيسية",
@@ -331,6 +339,7 @@ const translations = {
 
         about_legacy_tag: "إرثنا • قوتنا",
         about_future_title: "الارتقاء بـ <span>مستقبل عُمان.</span>",
+        about_hero_desc: "اكتشف أساس تميزنا الهندسي والتزامنا المنقطع النظير ببناء المشهد الصناعي في عُمان بدقة وأمان.",
         about_conglom_title: "تكتل من <br><span>التميز الصناعي.</span>",
         about_conglom_desc: "تأسست إس كيه للنقليات على مبادئ الموثوقية والدقة الهندسية، وقد نمت من خدمة تأجير محلية إلى قوة صناعية مهيمنة في سلطنة عُمان. <br><br>مع أكثر من 18 فرعاً في مواقع استراتيجية في جميع أنحاء البلاد، نتميز في تقديم حلول الرفع الثقيل المعتمدة من PDO، وتوريد المعدات المباشر من المصانع في الصين، وقطع غيار السيارات المتخصصة.",
         mission_title: "مهمتنا",
@@ -478,8 +487,15 @@ const translations = {
         phone_ops: "\u200E+968 9192 9355 (Ops)",
         phone_ops_2: "\u200E+968 7410 9000 (Ops)",
         phone_landline: "\u200E+968 24 424537 (Landline)",
-        form_success: "شكراً لك! تم إرسال استفسارك إلى مقرنا الرئيسي.",
-        form_error: "عذراً! حدثت مشكلة في إرسال رسالتك."
+        contact_wa_label: "واتساب عُمان",
+        serv_pdo_compliance_title: "الامتثال لـ PDO",
+        serv_pdo_compliance_desc: "تسجيل كامل لدى شركة تنمية نفط عمان (PDO) لجميع الرافعات المستأجرة، مما يضمن الوصول إلى مناطق الطاقة عالية الأمان.",
+        serv_certified_riggers_title: "فنيو تزويد معتمدون",
+        serv_certified_riggers_desc: "يحمل مشغلونا وفنيو التزويد لدينا شهادات دولية للرفع الفني وإدارة الأحمال الثقيلة.",
+        serv_parts_hub_title: "مركز قطع الغيار",
+        serv_parts_hub_desc: "دعم مستودع مخصص لمعدات ساني وهيونداي وكيا لتقليل تأخيرات الصيانة.",
+        form_success: "شكراً لك! تم إرسال استفسارك إلى مقرنا الرئيسي. سنتصل بك قريباً.",
+        form_error: "خطأ في الإرسال! يرجى محاولة إرسال استفسارك مباشرة عبر <a href='https://wa.me/96891929375' style='color:inherit; text-decoration:underline;'>واتساب (+968 9192 9375)</a> للمساعدة الفورية."
     },
     zh: {
         nav_home: "首页",
@@ -550,6 +566,7 @@ const translations = {
 
         about_legacy_tag: "我们的遗产 • 我们的实力",
         about_future_title: "提升 <span> 阿曼的未来。</span>",
+        about_hero_desc: "探索我们卓越工程的基石，以及我们在提升阿曼工业格局方面坚定不移的承诺，并确保极其严密的精准度和安全性。",
         about_conglom_title: "一个 <br><span> 卓越工业</span> 的集团。",
         about_conglom_desc: "SK Transports 秉承可靠和精密工程的原则，已从当地的租赁服务发展成为阿曼苏丹国占主导地位的工业强国。<br><br>我们在全国各地的战略位置拥有 18 多个分支机构，专门提供 PDO 批准的重型起重解决方案、从中国工厂直接采购设备以及专业的汽车零部件。",
         mission_title: "使命",
@@ -697,8 +714,15 @@ const translations = {
         phone_ops: "+968 9192 9355 (Ops)",
         phone_ops_2: "+968 7410 9000 (Ops)",
         phone_landline: "+968 24 424537 (座机)",
-        form_success: "谢谢！您的咨询已发送至我们的总部。",
-        form_error: "糟糕！发送您的消息时出现问题。"
+        contact_wa_label: "阿曼 WhatsApp",
+        serv_pdo_compliance_title: "PDO 合规",
+        serv_pdo_compliance_desc: "在阿曼石油开发公司 (PDO) 全面注册所有租赁起重机，确保进入高安全性能源区。",
+        serv_certified_riggers_title: "认证索具工",
+        serv_certified_riggers_desc: "我们的操作员和索具工持有技术起重和重载管理的国际认证。",
+        serv_parts_hub_title: "备件中心",
+        serv_parts_hub_desc: "为三一、现代和起亚设备提供专门的仓库支持，以将维护延迟降至最低。",
+        form_success: "谢谢！您的咨询已发送至我们的总部。我们将很快与您联系。",
+        form_error: "提交错误！请尝试通过 <a href='https://wa.me/96891929375' style='color:inherit; text-decoration:underline;'>WhatsApp (+968 9192 9375)</a> 直接发送您的询问，以便获得即时反馈。"
     },
 };
 
@@ -800,7 +824,7 @@ if (contactForm) {
 
         // UI Feedback
         btn.disabled = true;
-        btn.innerHTML = (currentLang === 'ar' ? 'جاري الإرسال...' : (currentLang === 'zh' ? '正在发送...' : 'Sending...'));
+        btn.innerHTML = (currentLang === 'ar' ? 'جاري المعالجة...' : (currentLang === 'zh' ? '正在处理...' : 'Processing...'));
 
         try {
             const response = await fetch(contactForm.action, {
@@ -819,15 +843,34 @@ if (contactForm) {
                 contactForm.reset();
                 btn.style.display = 'none';
             } else {
-                throw new Error();
+                let errorMsg = translations[currentLang].form_error;
+                try {
+                    const data = await response.json();
+                    if (data && data.errors) {
+                        errorMsg = data.errors.map(error => error.message).join(", ") + ". " + translations[currentLang].form_error;
+                    } else if (data && data.error) {
+                        errorMsg = data.error + ". " + translations[currentLang].form_error;
+                    }
+                } catch (e) {
+                    // Response was not JSON, use default error
+                    console.log("Response was not JSON");
+                }
+                status.innerHTML = errorMsg;
+                throw new Error("Form submission failed");
             }
         } catch (error) {
             status.style.display = 'block';
             status.style.background = 'rgba(239, 68, 68, 0.1)';
             status.style.color = '#ef4444';
-            status.innerHTML = translations[currentLang].form_error || "Submission Error.";
+
+            // Final fallback if status wasn't set correctly
+            if (!status.innerHTML || status.innerHTML === "" || status.innerHTML.includes("Successfully")) {
+                status.innerHTML = translations[currentLang].form_error;
+            }
+
             btn.disabled = false;
             btn.innerHTML = translations[currentLang].form_submit_btn;
+            console.error("Form Error Logged:", error);
         }
     });
 }
