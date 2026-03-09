@@ -95,15 +95,15 @@
                     <ul style="list-style: none; color: #fff; font-weight: 700; margin-top: 30px;">
                         <li style="margin-bottom: 25px; display: flex; align-items: start; gap: 10px;">
                             <span style="color: var(--primary); font-size: 1.5rem;">✓</span>
-                            <span><strong style="color: var(--primary); font-size: 1.2rem;">Safety First:</strong><br><span data-i18n="check_1" style="color: var(--text-dim); font-weight: 400; font-size: 1rem;">PDO-approved fleet ensuring the highest operational standards in Oman.</span></span>
+                            <span><strong data-i18n="check_1_head" style="color: var(--primary); font-size: 1.2rem;">Safety First:</strong><br><span data-i18n="check_1" style="color: var(--text-dim); font-weight: 400; font-size: 1rem;">PDO-approved fleet ensuring the highest operational standards in Oman.</span></span>
                         </li>
                         <li style="margin-bottom: 25px; display: flex; align-items: start; gap: 10px;">
                             <span style="color: var(--primary); font-size: 1.5rem;">✓</span>
-                            <span><strong style="color: var(--primary); font-size: 1.2rem;">Direct Imports:</strong><br><span data-i18n="check_2" style="color: var(--text-dim); font-weight: 400; font-size: 1rem;">Expert facilitation of direct-from-China SANY machinery sales.</span></span>
+                            <span><strong data-i18n="check_2_head" style="color: var(--primary); font-size: 1.2rem;">Direct Imports:</strong><br><span data-i18n="check_2" style="color: var(--text-dim); font-weight: 400; font-size: 1rem;">Expert facilitation of direct-from-China SANY machinery sales.</span></span>
                         </li>
                         <li style="margin-bottom: 25px; display: flex; align-items: start; gap: 10px;">
                             <span style="color: var(--primary); font-size: 1.5rem;">✓</span>
-                            <span><strong style="color: var(--primary); font-size: 1.2rem;">Technical Support:</strong><br><span data-i18n="check_3" style="color: var(--text-dim); font-weight: 400; font-size: 1rem;">24/7 assistance and maintenance to ensure zero project downtime.</span></span>
+                            <span><strong data-i18n="check_3_head" style="color: var(--primary); font-size: 1.2rem;">Technical Support:</strong><br><span data-i18n="check_3" style="color: var(--text-dim); font-weight: 400; font-size: 1rem;">24/7 assistance and maintenance to ensure zero project downtime.</span></span>
                         </li>
                     </ul>
                 </div>
