@@ -18,6 +18,7 @@
                     <li><a href="<?php echo esc_url(home_url('/services')); ?>" data-i18n="nav_services">Services</a></li>
                     <li><a href="<?php echo esc_url(home_url('/about')); ?>" data-i18n="nav_about">About Us</a></li>
                     <li><a href="<?php echo esc_url(home_url('/contact-us')); ?>" data-i18n="nav_contact">Contact Us</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/blog/index.html')); ?>" data-i18n="nav_blog">Blog</a></li>
                 </ul>
             </div>
 

@@ -55,7 +55,7 @@ const translations = {
         hero_tagline: "Oman's Ultimate Heavy Lifting Force • PDO Approved • 18+ Years Excellence",
         hero_title: "THE ULTIMATE FORCE IN <span>OMAN'S INFRASTRUCTURE.</span>",
         hero_desc: "Driving the Sultanate of Oman progress with high-performance SANY Mobile Truck Cranes. From large-scale industrial lifts to complex urban developments, we provide the power, precision, and reliability your projects demand.",
-        btn_quote: "View SANY Inventory",
+        btn_quote: "View SANY Fleet",
         btn_fleet: "Contact Our Experts",
         stat_350_title: "350T",
         stat_350_desc: "Lifting Capacity",
